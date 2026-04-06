@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         // Insertar usuario de prueba
         Usuario admin = new Usuario();
         admin.nombre = "ADMIN";
-        admin.pass = "123";
+        admin.pass = "Admin1234";
         admin.rol = "ADMIN";
         db.usuarioDao().insert(admin); // CORREGIDO
 
