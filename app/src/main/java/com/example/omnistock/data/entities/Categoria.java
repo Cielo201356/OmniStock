@@ -8,4 +8,5 @@ public class Categoria {
     public int id;
     public String nombre_categoria;
     public String descripcion;
+    public String material;
 }
